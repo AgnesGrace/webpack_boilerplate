@@ -22,10 +22,6 @@ ES Modules and CommonJS modules have a different syntax, but the idea is basical
 
 When it comes to using modules in the browser, there is support for `ESM` or `ES Modules` in newer browsers, however they're not supported in older browsers. So in order to use them, you will usually use a module bundler like `Webpack` or `Parcel` to bundle our modules into a single file that can be used in the browser.
 
-I will be using yarn, but you can use npm.
-
-So we have to folders, `common_js` which contains basics on how to use common_js which is the default node module and we also have `es_module` folder, which also shows how to use the ES module and an index.html file just to interact with the browser note that we added type here `<script src="app.js" type="module" defer></script>`
-
 Since the `ES` module is not supported in older browsers, we need to use a bundler like `webpack` or `Parcel` which bundles our modules into a file that can be used in the browser.
 
 # Webpack Module Bundler
