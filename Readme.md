@@ -50,3 +50,5 @@ Loaders are used to process different types of files and convert them into modul
 ## Plugins
 
 Webpack also has something called plugins. Plugins are used to extend the functionality of Webpack. For instance, if you want to minify your JavaScript, you would use a minification plugin. If you want to extract your CSS into a separate file, you would use a CSS extraction plugin. We'll be using the `HTMLWebpack` plugin to automatically generate our HTML production files and the `WebpackDevServer` plugin to give us a nice auto reload dev server to work with.
+
+Check the `Learn.md` file for detailed explanation of the setup.
