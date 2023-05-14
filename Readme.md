@@ -1,6 +1,6 @@
 # Brief introduction to Modules
 
-Modules are just JavaScript files that we can import into other JavaScript files. We can then use the code that is in the module in the file that we import it into.
+Modules are JavaScript files that we can import into other JavaScript files. 
 
 We need to export what we want from the file. This could be a function, a class or even just a variable value or an object. Modules can be our own files and code or they can be part of a package that we install using `NPM` (`Node Package Manager`) or `yarn` which is also a `package manager` for `Node.js`. If you want to use NPM modules in the front-end, you need to use a module bundler like Webpack.
 
